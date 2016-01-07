@@ -1,0 +1,23 @@
+.toggle-extra {
+  max-width: 400px; }
+  .toggle-extra .toggle-extra__credits {
+    font-size: 12px;
+    margin: 30px 0 0; }
+
+.toggle-extra__list {
+  border: 1px solid #ababab;
+  background: #fff;
+  width: 240px;
+  padding: 5px 0; }
+  .toggle-extra__list .toggle-extra__list-sep {
+    height: 2px;
+    width: 240px;
+    background-color: #ababab; }
+  .toggle-extra__list .toggle-extra__list-item {
+    padding: 4px 20px; }
+  .toggle-extra__list .awaiting-mod, .toggle-extra__list .update-plugins {
+    display: none; }
+  .toggle-extra__list .dashicons-hidden {
+    color: #555; }
+
+/*# sourceMappingURL=clean-wp-admin-menu-admin.css.map */
