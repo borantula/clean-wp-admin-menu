@@ -65,7 +65,7 @@
         </form>
 
 
-        <div class="toggle-extra__credits"><?php echo__('Plugin by ');?><a href="http://borayalcin.me" target="_blank">Bora Yalcin</a></div>
+        <div class="toggle-extra__credits"><?php echo esc_html_e('Plugin by ',$pluginName);?><a href="http://borayalcin.me" target="_blank">Bora Yalcin</a></div>
     </div>
 
 
