@@ -42,16 +42,16 @@
                     }
                     ?>
                     <li class="toggle-extra__list-item">
-                        <label for="toggle_extra_item_<?= $key; ?>">
-                            <input type="checkbox" name="toggle_extra_items[]" value="<?= $menuItem[2]; ?>"
-                                   id="toggle_extra_item_<?= $key; ?>"
-                                <?= ($isSelected) ? 'checked' : ''; ?>
-                                <?= ($menuItem[2] === 'index.php') ? 'disabled' : ''; ?> />
+                        <label for="toggle_extra_item_<?php echo $key; ?>">
+                            <input type="checkbox" name="toggle_extra_items[]" value="<?php echo $menuItem[2]; ?>"
+                                   id="toggle_extra_item_<?php echo $key; ?>"
+                                <?php echo ($isSelected) ? 'checked' : ''; ?>
+                                <?php echo ($menuItem[2] === 'index.php') ? 'disabled' : ''; ?> />
                             <?php if ($isSelected): ?>
-                                <?= $menuItem[0]; ?>
+                                <?php echo $menuItem[0]; ?>
                             <?php else: ?>
                                 <strong>
-                                    <?= $menuItem[0]; ?>
+                                    <?php echo $menuItem[0]; ?>
                                 </strong>
                             <?php endif; ?>
                             <?php if ($isSelected): ?>
@@ -65,7 +65,7 @@
         </form>
 
 
-        <div class="toggle-extra__credits"><?=__('Plugin by ');?><a href="http://borayalcin.me" target="_blank">Bora Yalcin</a></div>
+        <div class="toggle-extra__credits"><?php echo__('Plugin by ');?><a href="http://borayalcin.me" target="_blank">Bora Yalcin</a></div>
     </div>
 
 

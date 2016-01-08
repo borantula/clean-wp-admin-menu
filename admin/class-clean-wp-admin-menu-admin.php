@@ -248,7 +248,7 @@ class Clean_Wp_Admin_Menu_Admin
             $adminPageUrl = admin_url('options-general.php?page=clean-wp-admin-menu_options');
         ?>
         <script>
-            window.location.href = "<?=$adminPageUrl ;?>";
+            window.location.href = "<?php echo $adminPageUrl ;?>";
         </script>
         <?php
         exit;
